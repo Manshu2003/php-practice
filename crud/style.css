@@ -1,0 +1,118 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header / Navbar */
+header {
+    background-color: #00a19a;
+    color: #fff;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a.active,
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Page content */
+main {
+    padding: 30px 60px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Card form box */
+.card {
+    background: #f5f5f5;
+    padding: 30px;
+    max-width: 420px;
+    border-radius: 4px;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.card label {
+    margin: 8px 0 4px;
+    font-size: 14px;
+}
+
+.card input,
+.card select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+/* Buttons */
+.btn {
+    border: none;
+    color: #fff;
+    padding: 7px 14px;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 2px;
+    margin-top: 12px;
+}
+
+.main-btn {
+    background-color: #444;
+}
+
+.main-btn.small {
+    width: 90px;
+}
+
+/* Edit/Delete buttons in table */
+.btn-edit {
+    background-color: #ff9800;
+    margin-right: 4px;
+}
+
+.btn-delete {
+    background-color: #f44336;
+}
+
+/* Table */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #333;
+    color: #fff;
+}
